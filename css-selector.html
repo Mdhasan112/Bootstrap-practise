@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #another{
+            color: red;
+        }
+        /* pseudo selector */
+        .first-div:hover{
+            background-color: crimson;
+            transition: 1s;
+        }
+        .first-div{
+            height: 300px;
+            width: 300px;
+           background-color: chartreuse;
+
+        }
+        .header-menu li a{
+            color: red;
+         }
+         /* .header li:first-child a{
+             color: darkgreen;
+         }
+         .header li:last-child a{
+             color:dodgerblue;
+         } */
+         /* .header li:nth-child(odd/even) a{
+             color:dodgerblue;
+         } */
+         .header li:nth-child(1) a{
+             color:dodgerblue;
+         }
+         .header li:nth-child(2) a{
+             color:red;
+         }
+         .header li:nth-child(3) a{
+             color:green;
+         }
+         .header li:nth-child(4) a{
+             color:rgb(71, 71, 5)
+         }
+         .header li:nth-child(5) a{
+             color:black;
+         }
+         
+    </style>
+</head>
+<body>
+    <h2>This is heading tag</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisici</p>
+    <!-- css class -->
+    <div class="first-div">
+        Lorem ipsum dolor sit amet consectetur adipisicing el.
+    </div>
+    <div class="2nd-div">
+        this is div
+    </div>
+    <!-- css id -->
+    <div id="another-id">this is div</div>
+    <div id="another">this is div</div>
+    <!-- nasted css -->
+    <ul class="header-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">add</a></li>
+        <li><a href="#">others</a></li>
+    </ul>
+    <ul class="footer-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">add</a></li>
+        <li><a href="#">others</a></li>
+    </ul>
+    <!-- child selector -->
+    <ul class="header">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">menu</a></li>
+        <li><a href="#">add</a></li>
+        <li><a href="#">others</a></li>
+    </ul>
+    
+
+</html>
