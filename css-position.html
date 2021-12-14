@@ -5,8 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: 800px;
+            padding: 50px;
+            border: 2px solid springgreen;
+            margin: 30px auto;
+            text-align: center;position: relative;
+            color: white;
+
+        }
+        .div1{
+
+            height: 150px;
+            width: 200px;
+            background-color: cadetblue;
+            position: relative;
+            /* left: 40px;
+            top: 80px; */
+            display: inline-block;
+        }
+        .div2{
+            height: 150px;
+            width: 200px;
+            background-color: red;
+            position:absolute;
+            right: 0px;
+            bottom: 0px;
+            display: inline-block;
+        }
+        .div3{
+            height: 150px;
+            width: 200px;
+            background-color: navy ;
+            position: relative;
+            /* left: 40px;
+            bottom: 80px; */
+            display: inline-block;
+            
+        }
+    </style>
 </head>
 <body>
+    <div class="main">
+        <div class="div1"> <h2>hello-1</h2></div>
+        <div class="div2"><h2>hello-2</h2></div>
+        <div class="div3"><h2>hello-3</h2></div>
+    </div>
     
 </body>
 </html>
