@@ -10,10 +10,18 @@
 }
 .heaer-menu ul li{
     display: inline-block;
+    margin-left: -5px;
+}
+.heaer-menu ul li:first-child a{
+    border-left: 1px solid lightcyan;
 }
 .heaer-menu ul li a{
     color: white;
     padding: 20px 20px;
     display: inline-block;
+    text-decoration: none;
+    border-right: 1px solid lightcyan;
 }
-.heaer-menu ul li a:hover{}
+.heaer-menu ul li a:hover{
+    background-color: lightskyblue;
+}
