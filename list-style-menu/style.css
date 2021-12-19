@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.heaer-menu{
+    background-color: rgb(6, 124, 124);
+}
+.heaer-menu ul{
+    text-align: center;
+}
+.heaer-menu ul li{
+    display: inline-block;
+}
+.heaer-menu ul li a{
+    color: white;
+    padding: 20px 20px;
+    display: inline-block;
+}
+.heaer-menu ul li a:hover{}
