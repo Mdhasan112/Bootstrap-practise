@@ -36,8 +36,25 @@
     top: 100%;
     left: 0px;
     width: 300px;
-    background-color:rgb(105, 9, 114)
+    background-color:rgb(105, 9, 114);
+    border-top: 1px solid gainsboro; 
 }
-.header-menu ul li ul li{}
-.header-menu ul li ul li a{}
+.header-menu ul li ul li{
+    display: block;
+    margin-left: 0;
+}
+header-menu ul ul li:first-child a{
+    border-left: none;
+}
+.header-menu ul li ul li a{
+    display: block;
+    border: none;
+}
+/* hover part */
+.header-menu ul li ul{
+    display: none;
+}
+.header-menu ul li:hover ul{
+    display: block;
+}
 .header-menu ul li ul li a:hover{}
