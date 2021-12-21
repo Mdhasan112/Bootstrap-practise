@@ -10,7 +10,9 @@
 }
 .header-menu ul li{
     display: inline-block;
-    margin: -4px;
+    margin-left: -4px;
+    position: relative;
+  
 }
 .header-menu ul li:first-child a{
     border-left: 1px solid whitesmoke;
@@ -29,17 +31,13 @@
     background-color: gray;
 }
 /* dropdown-part */
+
 .header-menu ul li ul{
-    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    background:rgb(0, 92, 128);
 }
-.header-menu ul li ul li{
-    display: inline-block;
-}
-.header-menu ul li ul li a{
-    font-size: 20px;
-    color: white;
-    padding: 20px 20px;
-    display: inline-block;
-    text-decoration: none;
-    border-right: 1px solid whitesmoke;
-}
+.header-menu ul li ul li{}
+.header-menu ul li ul li a{}
