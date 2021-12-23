@@ -1,0 +1,16 @@
+.table{
+    height: 300px;
+    width: 300px;
+    background: red;
+    text-align: center;
+    float: right;
+}
+img{
+    max-height:200px;
+    width: auto;
+    float: right;
+    margin-left: 15px;
+}
+p{
+
+}
