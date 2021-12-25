@@ -86,3 +86,10 @@ img{
         font-size: 30px;
         border-radius: 5px;
     }
+    /* service section */
+    .service{}
+    .service-item{
+        float: left;
+        width: 31.3%;
+        padding: 10px;
+    }
