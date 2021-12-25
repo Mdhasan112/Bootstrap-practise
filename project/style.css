@@ -32,7 +32,7 @@ img{
     width: 30%;
 }
 .header-left img{
-    width: 100px;
+    width: 60px;
     height: auto;
 }
 
@@ -54,7 +54,7 @@ img{
     color: white;
     font-size: 20px;
     padding: 0 20px;
-    line-height: 60px;
+    line-height: 67px;
     border-right: 1px solid whitesmoke;
     transition: .4s;
 }
