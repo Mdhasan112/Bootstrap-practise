@@ -66,6 +66,7 @@ img{
     background: url(images/banner.jpg) no-repeat center;
     padding: 200px 0;
     background-size: cover;
+    background-attachment: fixed;
     }
     .banner-caption{}
     .banner-caption h1{
@@ -128,3 +129,73 @@ img{
         font-size: 30px;
     }
     .service-item p{}
+
+    /* blog section */
+
+    .blog-container{}
+    .blog-left-content{
+        float: left;
+        width: 70%;
+    }
+    .blog-right-notification{
+        float: right;
+        width: 25%;
+    }
+    .blog-item{
+        margin-top: 15px;
+    }
+    .blog-item img{
+        float: left;
+        width: 150px;
+        height: auto;
+        margin-right: 15px;
+    }
+
+    /* blog notification */
+    .blog-right-notification{}
+    .blog-right-notification h2{
+        font-size: 30px;
+        border-bottom: 1px solid wheat;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .blog-right-notification ul{
+        list-style: none;
+    }
+    .blog-right-notification ul li{
+        border: 1px solid wheat;
+        background: whitesmoke;
+        padding: 10px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        font-size: 17px;
+    }
+
+    /* footer */
+    .footer{
+        background: #34495e;
+        color: white;
+        padding: 15px 0px;
+        margin-top: 30px;
+    }
+
+   .footer-left{
+       float: left;
+       width: 40%;
+   }
+   .footer-right{
+       float: right;
+       width: 60%;
+   }
+   .social-menu{
+       text-align: right;
+   }
+   .social-menu li{
+    list-style: none;
+    display: inline-block;
+}
+   .social-menu li a{
+       color: white;
+       font-size: 20px;
+       margin-left: 15px;
+   }
