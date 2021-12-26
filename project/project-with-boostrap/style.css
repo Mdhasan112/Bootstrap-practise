@@ -1,0 +1,25 @@
+
+.header{
+    background: #008000;
+    
+
+}
+.header img{
+   width: 120px;
+   height: auto;
+}
+.header ul{
+    text-align: center;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    border-right: 1px solid red;
+    line-height: 60px;
+}
