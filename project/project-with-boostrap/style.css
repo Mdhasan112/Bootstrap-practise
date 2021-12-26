@@ -5,7 +5,7 @@
 
 }
 .header img{
-   width: 120px;
+   width: 125px;
    height: auto;
 }
 .header ul{
@@ -18,8 +18,56 @@
 .header ul li a{
     color: white;
     text-decoration: none;
+    padding: 35px 20px;
+    margin: -3px;
+    border-right: 1px solid whitesmoke;
+    line-height: 50px;
+}
+.header ul li a:hover{
+    background: yellowgreen;
+}
+
+/* banner */
+.banner{
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner .row{
+    text-align: center;
+}
+.banner h1{
+    background: rgb(46, 24, 24);
+    color: white;
+    display: inline-block;
     padding: 20px;
-    margin: 10px;
-    border-right: 1px solid red;
-    line-height: 60px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.banner h2{
+    background: #3498db;
+    color: white;
+    max-width: 450px;
+    margin: auto;
+    padding: 10px 0px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* about */
+.about{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.about h1{
+    font-size: 50px;
+    padding: 20px 0px;
+    margin: 5px;
+}
+.about p{
+    width: 600px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
 }
