@@ -13,7 +13,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="header">
+    <div class="header" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -24,12 +24,11 @@
                 <div class="col-md-8">
                    <div class="primary-menu">
                     <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Service</a></li>
-                      <li><a href="#">Products</a></li>
-                      <li><a href="#">Blog</a></li>
-                      <li><a href="#">Content</a></li>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#service">Service</a></li>
+                      <li><a href="#product">Products</a></li>
+                      <li><a href="#contact">Contact</a></li>
               </ul>
                    </div>
                 </div>
@@ -48,7 +47,7 @@
       </div>
     </div>
 
-    <div class="about text-center pt-5 pb-5">
+    <div class="about text-center pt-5 pb-5" id="about">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -60,7 +59,7 @@
       </div>
     </div>
 
-    <div class="service text-center pt-5 pb-5">
+    <div class="service text-center pt-5 pb-5" id="service">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -100,13 +99,13 @@
       </div>
     </div>
 
-    <div class="product pt-5 pb-5">
+    <div class="product pt-5 pb-5" id="product">
       <div class="container">
         <div class="row">
           <div class="col-md-9">
             <div class="row product-item mb-4">
               <div class="col-md-3">
-                <img src="../images/hasan.jpg" alt="">
+                <img src="../images/hk-2.jpg" alt="">
               </div>
               <div class="col-md-9">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa exercitationem minima, error eligendi hic possimus amet consequatur necessitatibus veniam iste perferendis nobis itaque eius quo quibusdam fugit iusto quas eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, consequatur vero. Temporibus libero eligendi ab. Enim necessitatibus quisquam repellendus quaerat! Necessitatibus eaque distinctio quidem eligendi sed dolore beatae ea doloremque?</p>
@@ -133,8 +132,33 @@
                 <li>Lorem ipsum dolor sit amet.</li>
                 <li>Lorem ipsum dolor sit amet.</li>
                 <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>  
+                <li>Lorem ipsum dolor sit amet.</li> 
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li> 
               </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact pb-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="google-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234703.5992686803!2d89.66255735555006!3d23.19778633903726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ffc58ba675f07b%3A0x6da85afdb8b547e8!2sKashiani%20Upazila!5e0!3m2!1sen!2sbd!4v1640706553756!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-form">
+              <form action="#">
+                <input type="text" class="form-control mb-3" placeholder="name">
+                <input type="email" class="form-control mb-3" placeholder="Email">
+                <input type="text" class="form-control mb-3" placeholder="Contact">
+                <textarea name="" id="" cols="30" class="form-control" rows="10"></textarea>
+                <input type="Submit" value="submit-form" class="btn-primary">
+              </form>
             </div>
           </div>
         </div>

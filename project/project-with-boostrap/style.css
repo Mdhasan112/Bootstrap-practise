@@ -79,6 +79,9 @@ margin-bottom: 0px;
   
 
 /* product */
+.product-right ul{
+    list-style: none;
+}
 .product-right ul li{
     border: 1px solid wheat;
     background: whitesmoke;
@@ -88,6 +91,10 @@ margin-bottom: 0px;
     font-size: 17px;
 }
 
+/* contact */
+.contact .google-map{
+
+}
 /* footer */
 .footer{
     background: #34495e;
