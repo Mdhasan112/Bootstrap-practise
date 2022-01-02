@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.img{
+    max-width: 100%;
+}
+.a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1300px;
+}
