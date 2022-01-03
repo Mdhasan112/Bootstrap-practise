@@ -30,4 +30,63 @@
 }
 .mid-content{
     max-width: 1300px;
+    margin: auto;
+}
+
+/* begain main css */
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+.header-section{
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+.header-section a{
+    color: #010101;
+}
+.header-logo{
+    width: 30%;
+}
+.logo img{
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.logo span{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.header-menu{
+    width: 60%;
+}
+.header-batton{
+    width: 10%;
+}
+.primary-menu{}
+.primary-menu ul{}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 60px;
+
+}
+.primary-menu ul li a:hover{}
+
+.header-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #6278df;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 5px;
+    color: #6278df !important;
+    font-size: 20px;
+    font-weight: 600;
 }
