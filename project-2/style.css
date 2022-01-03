@@ -90,3 +90,23 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     font-size: 20px;
     font-weight: 600;
 }
+
+/* dropdown menu */
+.primary-menu ul li{
+    position: relative;
+}
+.primary-menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 300px;
+    background-color: white;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.primary-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
