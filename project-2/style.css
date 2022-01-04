@@ -40,6 +40,11 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .header-section{
     background-color: white;
     border-bottom: 1px solid lightgray;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
 }
 .header-section a{
     color: #010101;
@@ -115,30 +120,107 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .banner-section{
     background: url(images/02.jpg) no-repeat center;
     background-size: cover;
-    padding: 200px 0;
+    padding: 220px 0;
+    color: white;
+    margin-top: 60px;
 }
 .banner-content{
     text-align: center;
-    color: white;
 }
 .banner-content h2{
     font-size: 60px;
     padding: 10px;
     margin-bottom: 5px;
+    font-weight: 400;
 }
 .banner-content h3{
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    font-weight: 300;
+    
 }
 
 .default-batton{
     display: inline-block;
+    font-size: 20px;
     text-decoration: none;
     border-radius: 10px;
-    color: white;
-    background-color: #6278df;
+    color: grey;
+    background-color: white;
     padding: 15px 20px;
     margin: 10px;
+    font-weight: 600;
+}
+
+/* banner-bottom */
+
+.banner-bottom{
+    background-color: white;
+    padding: 120px 0;
+}
+.video-left{
+    width: 48%;
+}
+.video-content-right{
+    width: 48%;
+}
+.video-content-right h3 {
+    font-size: 40px;
+    color: grey;
+    margin-bottom: 15px;
+}
+.video-content-right p {
+    font-size: 20px;
+    color: grey;
+    line-height: 1.7em;
+}
+
+/* service-section */
+.service-section{
+    background-color: white;
+    padding: 100px 0;
+}
+.service-title{}
+.service-title h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.service-title p{
+    font-size: 25px;
+    color: grey;
+}
+
+/* service-items */
+
+.service-items{
+    margin-top: 90px;
+}
+.service-box{
+    width: 31%;
+    box-shadow: 4px 4px 20px black;
+    margin-right: 2%;
+    margin-bottom: 30px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.service-icon{
+    width: 60px;
+    float: left;
+    height: 150px;
+    font-size: 45px;
+    color: #6278df;
+    margin-right: 10px;
+}
+.service-content{
+    /* margin-top: 8px; */
+}
+.service-content h3{
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.service-content p{
+    color: grey;
+    font-size: 20px;
+    line-height: 1.6em;
 }
