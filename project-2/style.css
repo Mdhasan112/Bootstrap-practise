@@ -110,3 +110,35 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     opacity: 1;
     visibility: visible;
 }
+
+/* banner section css */
+.banner-section{
+    background: url(images/02.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner-content{
+    text-align: center;
+    color: white;
+}
+.banner-content h2{
+    font-size: 60px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.banner-content h3{
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.default-batton{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #6278df;
+    padding: 15px 20px;
+    margin: 10px;
+}
