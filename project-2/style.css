@@ -170,7 +170,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 /* banner-bottom */
 
 .banner-bottom{
-    background-color: white;
+    background-color: #f7f9ff;
     padding: 120px 0;
 }
 .video-left{
@@ -192,7 +192,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 /* service-section */
 .service-section{
     background-color: white;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .service-title{}
 .service-title h1{
@@ -212,7 +212,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 }
 .service-box{
     width: 31%;
-    box-shadow: 4px 4px 20px black;
+    box-shadow: 4px 4px 20px lightskyblue;
     margin-right: 2%;
     margin-bottom: 30px;
     padding: 25px;
@@ -238,4 +238,80 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     color: grey;
     font-size: 20px;
     line-height: 1.6em;
+}
+
+
+/* pricing-table-section */
+
+.pricing-table-section{
+    background-color: #f7f9ff;
+    padding: 50px;
+}
+.service-title{}
+.service-title h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.service-title p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.pricing-table{
+    margin-top: 80px;
+}
+.pricing-table-items{
+    width: 27.3%;
+    margin-right: 2%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 3px 4px 30px lightskyblue;
+}
+
+.p-heading{}
+.p-content{
+    padding: 20px;
+}
+
+.p-heading h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.p-heading span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.p-heading h2{
+    
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.p-heading h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.p-heading p{
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 30px;
+}
+
+
+.p-content ul{
+    list-style: none;
+}
+.p-content li{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2em;
+    padding: 10px;
+}
+
+.p-batton{
+    margin-top: 20px;
 }
