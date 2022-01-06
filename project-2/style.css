@@ -161,12 +161,12 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     font-size: 20px;
     text-decoration: none;
     border-radius: 10px;
-    color: #6278df;
+    color: grey;
     background-color: white;
     padding: 15px 20px;
     margin: 10px;
     font-weight: 600;
-    border: 2px solid #6278df;
+   
 }
 
 /* banner-bottom */
@@ -247,7 +247,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 
 .pricing-table-section{
     background-color: #f7f9ff;
-    padding: 50px;
+    padding: 100px;
 }
 .service-title{}
 .service-title h2{
@@ -329,7 +329,56 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .p-batton{
     margin-top: 20px;
 }
+.p-batton .default-batton{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #6278df;
+    background-color: white;
+    padding: 15px 20px;
+    margin: 10px;
+    font-weight: 600;
+    border: 2px solid #6278df;
+}
 .pricing-table-items:hover .p-batton{
     background-color:#6278df ;
     color: #ffffff;
+}
+
+/* team-section */
+
+.team-section{
+    padding: 100px 0px;
+    background-color: white;
+}
+.team-section .service-title h2{
+    font-size: 40px;
+}
+.team-members{
+    margin-top: 40px;
+}
+.member{
+    width: 23%;
+    margin-right: 2%;
+    background-color: white;
+    box-shadow: 3px 4px 30px lightskyblue;
+}
+
+.member img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.member-bio{
+    padding: 20px;
+}
+.member-bio h2{
+    margin-bottom: 12px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.member-bio p{
+    font-size: 20px;
+    /* color: grey; */
+    font-weight: 300;
 }
