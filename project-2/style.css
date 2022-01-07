@@ -247,7 +247,6 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 
 .pricing-table-section{
     background-color: #f7f9ff;
-    padding: 100px;
 }
 .service-title{}
 .service-title h2{
@@ -435,52 +434,3 @@ margin-top: 20px;
 }
 
 /* .block-section */
-.block-image img{
-    max-width: 200px
-}
-
-.block-section{
-    padding: 100px 0px;
-    background-color: white;
-}
-.block-heading{
-}
-.block-title{
-    width: 50%;
-}
-.block-title h1{
-    font-size: 40px;
-    font-weight: 600;
-    padding-bottom: 60px;
-}
-.block-text{
-    width: 50%;
-    padding-bottom: 60px;
-    font-size: 20px;
-    font-weight: 400;
-    color: grey;
-}
-
-.block-content{}
-.block-content-1{
-    width: 50%;
-}
-.block-content-2{
-    width: 50%;
-}
-
-.block-details{}
-.block-details h3{
-    padding: 20px 0px;
-}
-.block-details p{
-    padding: 20px 0px;
-}
-
-.block-image{
-    width: 50%;
-
-}
-.block-details{
-    width: 50%;
-}
