@@ -434,3 +434,20 @@ margin-top: 20px;
 }
 
 /* .block-section */
+
+.block-section{
+    padding: 100px 0px;
+}
+.b-title{}
+.b-items{}
+
+.bt-heading{
+    width: 50%;
+}
+.bt-content{
+    width: 50%;
+}
+
+.b-post-item{
+    width: 48%;
+}
