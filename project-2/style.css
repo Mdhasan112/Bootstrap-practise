@@ -250,7 +250,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 }
 .service-title{}
 .service-title h2{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
 }
 .service-title p{
@@ -475,4 +475,40 @@ img{
     float: left;
     width: 200px;
     margin-right: 30px;
+}
+
+/* testimonial-section */
+
+.testimonial-section{
+    background-color: #f7f9ff;
+    padding: 100px 0px;
+}
+.testimonial-items{
+    margin-top: 60px;
+}
+
+.t-item{
+    width: 31.5%;
+    margin-right: 2%;
+}
+.t-item:last-child{
+    margin-right: 0;
+}
+.t-content{
+    background-color: white;
+    padding: 60px 20px;
+    box-shadow: 3px 4px 30px lightskyblue;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+.t-content p{
+    color: grey;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.t-img img{
+border-radius: 50%;
+width: 70px;
+float: left;
+margin-right: 20px;
 }
