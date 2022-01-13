@@ -195,7 +195,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 /* service-section */
 .service-section{
     background-color: white;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .service-title{}
 .service-title h1{
@@ -503,7 +503,7 @@ img{
 }
 
 .t-item{
-    width: 31.5%;
+    width: 31.9%;
     margin-right: 2%;
 }
 .t-item:last-child{
@@ -578,7 +578,7 @@ margin-right: 20px;
     margin-top: 20px;
 }
 .contact-footer-form .w100{
-    width: 96%;
+    width: 97%;
     margin-bottom: 20px;
 }
 .contact-footer-form .w50{
@@ -595,4 +595,8 @@ margin-right: 20px;
 }
 .footer p{
     font-size: 20px;
+}
+
+.contact-footer-form:hover .default-batton{
+    border: 2px solid #6278df;
 }
