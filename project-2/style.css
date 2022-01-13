@@ -199,13 +199,13 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 }
 .service-title{}
 .service-title h1{
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 600;
 }
 .service-title p{
     font-size: 25px;
     color: grey;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 /* service-items */
@@ -249,13 +249,15 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .pricing-table-section{
     background-color: #f7f9ff;
 }
-.service-title{}
+.service-title{
+    padding-top: 20px;
+}
 .service-title h2{
     font-size: 40px;
     font-weight: 600;
 }
 .service-title p{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
 }
 
@@ -444,7 +446,7 @@ img{
     background-color: white;
 }
 .block-title{
-    padding: 60px 0px;
+    padding-bottom: 60px;
 }
 .block-items{}
 
@@ -597,6 +599,9 @@ margin-right: 20px;
     font-size: 20px;
 }
 
+.contact-footer-form .default-batton{
+    border: 1px solid #6278df;
+}
 .contact-footer-form:hover .default-batton{
     border: 2px solid #6278df;
 }
