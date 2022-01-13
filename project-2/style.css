@@ -438,45 +438,59 @@ margin-top: 20px;
 img{
     max-width: 100%;
 }
+
 .block-section{
     padding: 100px 0px;
-    background-color: lightskyblue;
+    background-color: white;
 }
-.b-title{
-    padding: 50px 0px;
+.block-title{
+    padding: 60px 0px;
 }
-.b-items{
-    padding-top: 30px 0px;
-}
+.block-items{}
 
+.block-heading{
+    width: 50%;
+}
 .block-heading h2{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 500;
-    margin-top: 25px;
+    margin-top: 30px;
 }
-.bt-heading{
+.block-content{
     width: 50%;
 }
-.bt-content{
-    width: 50%;
-}
-.bt-content p{
+.block-content p{
+    font-size: 20px;
     color: #767676;
     font-weight: 400;
-    font-size: 20px;
     line-height: 1.7em;
 }
-.b-post-item{
-    width: 48%;
-    background-color: white;
-    box-shadow: 3px 4px 30px 0;
-}
 
-.b-post-item img{
+.block-post-item{
+    width: 48%;
+    box-shadow: 3px 4px 30px lightskyblue;
+}
+.block-post-item img{
     float: left;
-    width: 200px;
+    width: 300px;
     margin-right: 30px;
 }
+
+.block-post-bio{
+    margin-top: 20px;
+}
+.block-post-bio h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.block-post-bio p{
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+    line-height: 1.7em;
+}
+
 
 /* testimonial-section */
 
@@ -501,6 +515,7 @@ img{
     box-shadow: 3px 4px 30px lightskyblue;
     box-sizing: border-box;
     margin-bottom: 60px;
+    margin-right: 25px;
 }
 .t-content p{
     color: grey;
@@ -543,10 +558,10 @@ margin-right: 20px;
 .contact-row{}
 
 .content-left-map{
-    width: 48%;
+    width: 49%;
 }
 .content-right-form{
-    width: 48%;
+    width: 49%;
 }
 .content-right-form h4{
     font-size: 25px;
